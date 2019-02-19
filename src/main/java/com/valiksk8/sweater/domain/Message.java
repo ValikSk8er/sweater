@@ -31,7 +31,7 @@ public class Message {
     }
 
     String getAuthorName() {
-        return author != null ? author.getUsername() : "<none>";
+        return author != null ? author.getUsername() : "none";
     }
 
     public Integer getId() {
